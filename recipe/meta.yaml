@@ -9,16 +9,22 @@ source:
     sha256: b5976e3857837e7617b29f2249ebb5eeac34e249208d31f1fbf7a6ba7a4090ce
 
 build:
-    number: 0
-    skip: True  # [win]
-
+    number: 1
+    features:
+        - vc9  # [win and py27]
+        - vc10  # [win and py34]
+        - vc14  # [win and py35]
+        
 requirements:
     build:
+        - python  # [win]
         - libxml2 2.9.*
     run:
         - libxml2 2.9.*
 
 test:
+    requires:
+        - python {{ environ['PY_VER'] + '*' }}  # [win]
     commands:
         - xsltproc --version
 
