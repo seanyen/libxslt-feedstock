@@ -1,9 +1,7 @@
 # This file was generated automatically from conda-smithy. To update this configuration,
 # update the conda-forge.yaml and/or the recipe/meta.yaml.
 
-language: generic
-
-os: osx
+language: objective-c
 
 env:
   global:
