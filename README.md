@@ -16,6 +16,18 @@ It also implements most of the EXSLT set of processor-portable extensions functi
 and some of Saxon's evaluate and expressions extensions."
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libxslt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libxslt-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/libxslt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libxslt-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libxslt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libxslt-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxslt/badges/version.svg)](https://anaconda.org/conda-forge/libxslt)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxslt/badges/downloads.svg)](https://anaconda.org/conda-forge/libxslt)
+
 Installing libxslt
 ==================
 
@@ -71,18 +83,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libxslt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libxslt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libxslt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libxslt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libxslt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libxslt-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxslt/badges/version.svg)](https://anaconda.org/conda-forge/libxslt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxslt/badges/downloads.svg)](https://anaconda.org/conda-forge/libxslt)
 
 
 Updating libxslt-feedstock
