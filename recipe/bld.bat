@@ -1,5 +1,4 @@
-REM need to set manifest for VS2008
-REM otherwise exes crash (not sure why)
+:: Need to set manifest for VS2008 otherwise exes crash (not sure why).
 set MANIFEST=no
 if "%VS_MAJOR%" == "9" (
     set MANIFEST=yes
