@@ -10,18 +10,19 @@ source:
   sha256: b5976e3857837e7617b29f2249ebb5eeac34e249208d31f1fbf7a6ba7a4090ce
 
 build:
-  number: 2
+  number: 3
+  skip: True  # [win and py>35]
   features:
     - vc9  # [win and py27]
     - vc10  # [win and py34]
-    - vc14  # [win and py35]
+    - vc14  # [win and py>=35]
 
 requirements:
   build:
     - python
     - vc 9  # [win and py27]
     - vc 10  # [win and py34]
-    - vc 14  # [win and py35]
+    - vc 14  # [win and py>=35]
     - libxml2 2.9.*
   run:
     - vc 9  # [win and py27]
@@ -32,6 +33,8 @@ requirements:
 test:
   commands:
     - xsltproc --version
+    - conda inspect linkages -p $PREFIX libxslt  # [not win]
+    - conda inspect objects -p $PREFIX libxslt  # [osx]
 
 about:
   home: http://xmlsoft.org/XSLT/
