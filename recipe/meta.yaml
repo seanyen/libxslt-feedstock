@@ -13,7 +13,7 @@ source:
     - 0001-Look-for-libxml2-via-pkg-config-first.patch
 
 build:
-  number: 4
+  number: 5
   skip: True  # [win and py>35]
   features:
     - vc9  # [win and py27]
