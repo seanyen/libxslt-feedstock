@@ -13,7 +13,7 @@ source:
     - 0001-Look-for-libxml2-via-pkg-config-first.patch
 
 build:
-  number: 4
+  number: 5
   skip: True  # [win and py>35]
   features:
     - vc9  # [win and py27]
@@ -31,11 +31,13 @@ requirements:
     - automake  # [not win]
     - libtool  # [not win]
     - pkgconfig  # [not win]
+    - icu 58.*  # [not win]
   run:
     - vc 9  # [win and py27]
     - vc 10  # [win and py34]
     - vc 14   # [win and py35]
     - libxml2 2.9.*
+    - icu 58.*  # [not win]
 
 test:
   commands:
