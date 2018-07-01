@@ -19,14 +19,16 @@ and some of Saxon's evaluate and expressions extensions."
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/libxslt-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/libxslt-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/libxslt-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/libxslt-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/libxslt-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/libxslt-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/libxslt-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/libxslt-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/libxslt-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/libxslt-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/libxslt-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/libxslt-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxslt/badges/version.svg)](https://anaconda.org/conda-forge/libxslt)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/libxslt/badges/downloads.svg)](https://anaconda.org/conda-forge/libxslt)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-libxslt-green.svg)](https://anaconda.org/conda-forge/libxslt) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/libxslt.svg)](https://anaconda.org/conda-forge/libxslt) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/libxslt.svg)](https://anaconda.org/conda-forge/libxslt) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/libxslt.svg)](https://anaconda.org/conda-forge/libxslt) |
 
 Installing libxslt
 ==================
