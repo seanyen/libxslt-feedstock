@@ -21,15 +21,10 @@ requirements:
   host:
     - icu  # [not win]
     - libxml2
-  run:
-    - icu  # [not win]
-    - libxml2
 
 test:
   commands:
     - xsltproc --version
-    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
-    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
 about:
   home: http://xmlsoft.org/XSLT/
