@@ -1,0 +1,12 @@
+--- libxslt/win32config.h
++++ libxslt/win32config.h
+@@ -123,7 +123,8 @@
+ #define ATTRIBUTE_UNUSED
+ #endif
+ 
+-#define _WINSOCKAPI_
++// don't define Windows internal header macro
++//#define _WINSOCKAPI_
+ 
+ #endif /* __LIBXSLT_WIN32_CONFIG__ */
+ 
