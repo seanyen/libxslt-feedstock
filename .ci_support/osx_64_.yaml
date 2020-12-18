@@ -9,7 +9,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 icu:
-- '67'
+- '68'
 libxml2:
 - '2.9'
 macos_machine:
